@@ -32,7 +32,7 @@
 
 ## Algorithms
 
-- Recursion
+- [Recursion](Algorithms/Recursion/README.md#recursion)
 
 - Dynamic Programming
 
