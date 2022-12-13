@@ -2,6 +2,14 @@
 
 # Topics
 
+## [Introduction](Introduction/README.md)
+
+- [What is Data Structure?](Introduction/README.md#what-is-data-structure)
+
+- [What is an Algorithm?](Introduction/README.md#what-is-an-algorithm)
+
+- [Why are Data Structure and Algorithms important?](Introduction/README.md#why-are-data-structure-and-algorithms-important)
+
 ## Data Structure
 
 - Arrays
@@ -79,5 +87,3 @@
 - Multithreading
 
 - Exception Handling
-
-## Logic Problem Solving
