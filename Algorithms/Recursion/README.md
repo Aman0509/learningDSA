@@ -117,3 +117,9 @@ To learn more about Recursion, follow below links:
 - [Analysis of Recursion in Programming - AfterAcademy](https://afteracademy.com/blog/analysis-of-recursion-in-programming/#:~:text=The%20number%20of%20levels%20in,tree%20is%20log2(N).&text=The%20cost%20at%20the%20last,number%20of%20subproblems%20is%20N.&text=The%20time%20complexity%20of%20the%20above,is%20O(N%20logN))
 
 - [The Handshake Problem](http://mason.gmu.edu/~jsuh4/impact/Handshake_Problem%20teaching.pdf)
+
+## Problems
+
+1. [Sum of digits of a number using recursion](Problems/sum_of_digits.py)
+2. [Power of given number using recursion](Problems/power_of_num.py)
+3. [GCD of two given numbers using recursion](Problems/gcd.py)
