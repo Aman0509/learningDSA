@@ -24,8 +24,10 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with black
-      run: |
-        python -m black **/Problems/*.py --check --diff
+      uses: psf/black@stable
+      with:
+        options: "--check --verbose --diff"
+        src: "**/Problems/*.py"
     - name: Test with pytest
       run: |
         python -m unittest discover -v -p '**/tests/test*.py'
