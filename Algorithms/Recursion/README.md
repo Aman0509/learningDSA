@@ -116,10 +116,21 @@ To learn more about Recursion, follow below links:
 
 - [Analysis of Recursion in Programming - AfterAcademy](https://afteracademy.com/blog/analysis-of-recursion-in-programming/#:~:text=The%20number%20of%20levels%20in,tree%20is%20log2(N).&text=The%20cost%20at%20the%20last,number%20of%20subproblems%20is%20N.&text=The%20time%20complexity%20of%20the%20above,is%20O(N%20logN))
 
-- [The Handshake Problem](http://mason.gmu.edu/~jsuh4/impact/Handshake_Problem%20teaching.pdf)
-
 ## Problems
 
 1. [Sum of digits of a number using recursion](Problems/sum_of_digits.py)
 2. [Power of given number using recursion](Problems/power_of_num.py)
 3. [GCD of two given numbers using recursion](Problems/gcd.py)
+4. [Decimal to binary conversion using recursion](Problems/dec_to_bin.py)
+5. [Product of array](Problems/product_of_array.py)
+6. [Recursive range](Problems/recursive_range.py)
+7. [Reverse array](Problems/reverse.py)
+8. [Palindrome](Problems/is_palindrome.py)
+9. [Some recursive](Problems/some_recursive.py)
+10. [Flatten array](Problems/flatten.py)
+11. [Capitalize first](Problems/capitalize_first.py)
+12. [Nested even sum](Problems/nested_even_sum.py)
+13. [Capitalize words](Problems/capitalize_words.py)
+14. [Stringify numbers](Problems/stringify_numbers.py)
+15. [Collect strings](Problems/collect_strings.py)
+16. [Total handshakes](Problems/total_handshakes.py)

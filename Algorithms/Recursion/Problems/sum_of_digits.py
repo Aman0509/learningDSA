@@ -1,4 +1,4 @@
-# Write a program to find the sum of digits using Recursion
+# Write a function which accepts an integer and returns its sum of digits using Recursion
 
 
 def sum_of_digits(n):

@@ -1,4 +1,4 @@
-# Write a program to calculate power of given number using recursion
+# Write a function to calculate power of given number using recursion
 
 
 def power_of_num(n, p):

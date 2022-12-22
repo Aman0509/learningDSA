@@ -1,4 +1,4 @@
-# Write a program to find GCD of two given numbers using recursion
+# Write a function which accepts 2 integers and return their GCD using recursion
 # Info: GCD is the largest positive integer that divides the numbers without a remainder
 
 
