@@ -35,4 +35,12 @@ jobs:
 
     - name: Test with unittest
       run: |
-        python -m unittest discover -v -p "./**/tests/"
+        for p in **/tests
+        do
+          sub_mod="$(cut -d '/' -f 1 <<< "$p")";
+          cd $sub_mod
+          echo "Running all tests at $p"
+          python3 -m unittest discover -v -s ./tests -p 'test_*.py'
+          echo $'\n'
+          cd ..
+        done
