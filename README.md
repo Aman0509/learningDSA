@@ -12,7 +12,7 @@
 
 ## Data Structure
 
-- Arrays
+- [Arrays](Data-Structure/Arrays/README.md)
 
 - Linked List
 
