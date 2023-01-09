@@ -8,7 +8,25 @@ OR
 
 Data Structures are different ways of organizing data on your computer, that can be used effectively.
 
-![DSA Zero to Hero Slide Image](Others/Images/1_Introduction.png)
+```mermaid
+    graph TD;
+        A[Data Structure] --> B[Primitive];
+        A --> C[Non Primitive];
+        B --> Integer;
+        B --> Float;
+        B --> Character;
+        B --> String;
+        B --> Boolean;
+        C --> D[Linear];
+        C --> E[Non Linear];
+        D --> Static --> Array;
+        D --> F[Dynamic];
+        F --> F1[Linked List];
+        F --> F2[Stack];
+        F --> F3[Queue];
+        E --> E1[Tree];
+        E --> E2[Graph];
+```
 
 Readings:
 
@@ -38,7 +56,14 @@ A good algorithm should promote:
 
 - Efficiency
 
-![DSA Zero to Hero Slide Image](Others/Images/2_Introduction.png)
+### Types of Algorithms
+
+- Simple Recursive Algorithms
+- Divide and Conquer Algorithms
+- Dynamic Programming Algorithms
+- Greedy Algorithms
+- Brute force Algorithms
+- Randomized Algorithms
 
 > Note: Please note that here we are just clustering together the algorithms that use a similar problem solving approach.
 
