@@ -1,6 +1,6 @@
 # Arrays
 
-| Contents |
+| Content |
 | :-------- |
 | [Introduction](#introduction) |
 | [Why do we need an array?](#why-do-we-need-an-array) |

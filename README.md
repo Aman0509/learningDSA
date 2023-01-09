@@ -2,7 +2,7 @@
 
 # Topics
 
-## [Introduction](Introduction/README.md)
+## Introduction
 
 - [What is Data Structure?](Introduction/README.md#what-is-data-structure)
 

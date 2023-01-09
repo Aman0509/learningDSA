@@ -1,5 +1,12 @@
 # Recursion
 
+| Content |
+| :------ |
+| [What is Recursion?](#what-is-recursion) |
+| [Why do we need Recursion?](#why-do-we-need-recursion) |
+| [How to write Recursion in 3 steps?](#how-to-write-recursion-in-3-steps) |
+| [Problems](#problems) |
+
 ## What is Recursion?
 
 Recursion is a way of solving a problem by having a function calling itself.
