@@ -10,6 +10,20 @@
 
 - [Why are Data Structure and Algorithms important?](Introduction/README.md#why-are-data-structure-and-algorithms-important)
 
+- [Algorithm Efficiency](Introduction/README.md#algorithm-efficiency)
+
+- [Space Complexity](Introduction/README.md#space-complexity)
+
+- [Time Complexity](Introduction/README.md#time-complexity)
+
+- [Best case, Average case, and Worst case](Introduction/README.md#best-case-average-case-and-worst-case)
+
+- [Θ Notation (theta)](Introduction/README.md#θ-notation-theta)
+
+- [Ω Notation](Introduction/README.md#ω-notation)
+
+- [Big O Notation](Introduction/README.md#big-o-notation)
+
 ## Data Structure
 
 - [Arrays](Data-Structure/Arrays/README.md)
