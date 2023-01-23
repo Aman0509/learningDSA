@@ -24,6 +24,8 @@
 
 - [Big O Notation](Introduction/README.md#big-o-notation)
 
+- [Big - O: Calculation of Time & Space Complexity](Introduction/README.md#big---o-calculation-of-time--space-complexity)
+
 ## Data Structure
 
 - [Arrays](Data-Structure/Arrays/README.md)

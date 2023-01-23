@@ -12,6 +12,7 @@
 | [Θ Notation (theta)](#θ-notation-theta) |
 | [Ω Notation](#ω-notation) |
 | [Big O Notation](#big-o-notation) |
+| [Big - O: Calculation of Time & Space Complexity](#big---o-calculation-of-time--space-complexity) |
 
 ## What is Data Structure?
 
@@ -244,3 +245,11 @@ if f(n) = 2n² + 3n + 1
 and g(n) = n²
 then for c = 6 and n0 = 1, we can say that f(n) = O(n²)
 ```
+
+## Big - O: Calculation of Time & Space Complexity
+
+Readings:
+
+- [Big O: How to Calculate Time and Space Complexity](https://www.inoutcode.com/concepts/big-o/)
+- [Space Complexity and Time Complexity](https://www.i2tutorials.com/design-and-analysis-of-algorithmsdaa-tutorial/daa-space-complexity-and-time-complexity/)
+- [Big O notation - Data Structures & Algorithms Tutorial #2 | Measuring time complexity](https://www.youtube.com/watch?v=IR_S8BC8KI0&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=2)
