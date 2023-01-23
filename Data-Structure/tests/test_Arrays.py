@@ -6,6 +6,8 @@ from Arrays.Problems import (
     is_unique,
     permutation,
     rotate_matrix,
+    subrectangle_queries,
+    max_increase_to_keep_city_skyline,
 )
 
 
@@ -71,4 +73,40 @@ class TestArrays(unittest.TestCase):
         self.assertEqual(arr3, arr3)
         self.assertRaises(
             Exception, rotate_matrix.rotate_matrix, [[1, 2], [3, 4], [4, 5, 6]]
+        )
+
+    def test_subrectangle_queries(self):
+        rectangle1 = [[1, 2, 1], [4, 3, 4], [3, 2, 1], [1, 1, 1]]
+        answer1 = []
+        obj1 = subrectangle_queries.SubRectangleQueries(rectangle1)
+        answer1.append(obj1.get_value(0, 2))
+        answer1.append(obj1.update_subrectangle(0, 0, 3, 2, 5))
+        answer1.append(obj1.get_value(0, 2))
+        answer1.append(obj1.get_value(3, 1))
+        answer1.append(obj1.update_subrectangle(3, 0, 3, 2, 10))
+        answer1.append(obj1.get_value(3, 1))
+        answer1.append(obj1.get_value(0, 2))
+        self.assertEqual(answer1, [1, None, 5, 5, None, 10, 5])
+
+        rectangle2 = [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
+        answer2 = []
+        obj2 = subrectangle_queries.SubRectangleQueries(rectangle2)
+        answer2.append(obj2.get_value(0, 0))
+        answer2.append(obj2.update_subrectangle(0, 0, 2, 2, 100))
+        answer2.append(obj2.get_value(0, 0))
+        answer2.append(obj2.get_value(2, 2))
+        answer2.append(obj2.update_subrectangle(1, 1, 2, 2, 20))
+        answer2.append(obj2.get_value(2, 2))
+        self.assertEqual(answer2, [1, None, 100, 100, None, 20])
+
+    def test_max_increase_to_keep_city_skyline(self):
+        grid1 = [[3, 0, 8, 4], [2, 4, 5, 7], [9, 2, 6, 3], [0, 3, 1, 0]]
+        grid2 = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+        self.assertEqual(
+            max_increase_to_keep_city_skyline.max_increase_keeping_skyline(grid1),
+            (35, [[8, 4, 8, 7], [7, 4, 7, 7], [9, 4, 8, 7], [3, 3, 3, 3]]),
+        )
+        self.assertEqual(
+            max_increase_to_keep_city_skyline.max_increase_keeping_skyline(grid2),
+            (0, grid2),
         )
