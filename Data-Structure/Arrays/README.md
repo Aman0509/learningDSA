@@ -520,11 +520,11 @@ Space Complexity = O(1)
 | ----| ---- |---- | ---- |---- |
 | | **TC** | **SC** | **TC** | **SC** |
 | Creating an empty array | O(1) | O(n) | O(1) | O(mn)|
-| Inserting a value in an array | O(1)/O(n) | O(1) | Column Insertion - O(m)/O(mn)<br/> Row Insertion - O(1)/O(m) | Column Insertion - O(1) <br/> Row Insertion - O(1)/O(m)|
+| Inserting a value in an array | Best - O(1)<br/>Worst - O(n) | O(1) | Column Insertion<br/>Best - O(m)<br/>Worst - O(mn)<br/><br/>Row Insertion<br/>Best - O(1)<br/>Worst - O(m) | Column Insertion<br/>Best - O(1)<br/><br/>Row Insertion<br/>Best - O(1)<br/>Worst - O(m)|
 | Traversing an array | O(n) | O(1) | O(mn) | O(1) |
 | Accessing a given cell | O(1) | O(1) | O(1) | O(1) |
 | Searching a given value | O(1)/O(n) | O(1) | O(1)/O(mn) | O(1) |
-| Deleting a given value | O(1)/O(n) | O(1) | Column Insertion - O(m)/O(mn)<br/> Row Insertion - O(1)/O(m) | Column Insertion - O(1) <br/> Row Insertion - O(1) |
+| Deleting a given value | O(1)/O(n) | O(1) | Column Insertion<br/>Best - O(m)<br/>Worst - O(mn)<br/><br/>Row Insertion<br/>Best - O(1)<br/>Worst - O(m) | Column Insertion<br/>Best - O(1)<br/><br/>Row Insertion<br/>Best - O(1) |
 
 ## When to use/avoid array
 

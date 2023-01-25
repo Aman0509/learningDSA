@@ -30,7 +30,7 @@
 
 - [Arrays](Data-Structure/Arrays/README.md)
 
-- Linked List
+- [Linked List](Data-Structure/Linked-Lists/README.md)
 
 - Hash Tables
 
