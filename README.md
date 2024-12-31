@@ -2,7 +2,7 @@
 
 ## Topics
 
-- [Introduction](introduction/README.md)
+- [Introduction](Introduction/README.md)
 
 - Data Structure
     - [Arrays](Data-Structure/Arrays/README.md)
