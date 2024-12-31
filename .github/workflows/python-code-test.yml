@@ -35,10 +35,11 @@ jobs:
 
     - name: Test with unittest
       run: |
-        for p in **/tests
+        for p in */*/tests
         do
-          sub_mod="$(cut -d '/' -f 1 <<< "$p")";
-          cd $sub_mod
+          sub_mod="$(cut -d '/' -f 2 <<< "$p")";
+          main_folder="$(cut -d '/' -f 1 <<< "$p")";
+          cd "$main_folder/$sub_mod"
           echo "Running all tests at $p"
           python3 -m unittest discover -v -s ./tests -p 'test_*.py'
           echo $'\n'
