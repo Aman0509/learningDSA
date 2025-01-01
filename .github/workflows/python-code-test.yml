@@ -43,5 +43,5 @@ jobs:
           echo "Running all tests at $p"
           python3 -m unittest discover -v -s ./tests -p 'test_*.py'
           echo $'\n'
-          cd ..
+          cd ../..
         done
