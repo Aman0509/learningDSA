@@ -1,6 +1,5 @@
 import unittest
-from unittest import mock
-from Arrays.Problems import (
+from Problems import (
     missing_num,
     two_sum,
     is_unique,
