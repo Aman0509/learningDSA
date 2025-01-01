@@ -1,5 +1,5 @@
 import unittest
-from Recursion.Problems import (
+from Problems import (
     sum_of_digits,
     power_of_num,
     gcd,
