@@ -246,6 +246,7 @@ $$
 
 Readings:
 
+- [Time Complexity Analysis | Abdul Bari](https://www.youtube.com/watch?v=xGYsEqe9Vl0&list=PLepRVAscJb6hLEJu77Y9jon8e8S4iUYAg)
 - [Big O: How to Calculate Time and Space Complexity](https://www.inoutcode.com/concepts/big-o/)
 - [Space Complexity and Time Complexity](https://www.i2tutorials.com/design-and-analysis-of-algorithmsdaa-tutorial/daa-space-complexity-and-time-complexity/)
 - [Big O notation - Data Structures & Algorithms Tutorial #2 | Measuring time complexity](https://www.youtube.com/watch?v=IR_S8BC8KI0&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=2)
