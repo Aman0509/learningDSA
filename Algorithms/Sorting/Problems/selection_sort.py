@@ -8,7 +8,7 @@ def selection_sort(arr, reverse=False):
     l = len(arr)
     for i in range(l):
         idx = i
-        for j in range(i+1, l):
+        for j in range(i + 1, l):
             if compare(arr[idx], arr[j]):
                 idx = j
         arr[i], arr[idx] = arr[idx], arr[i]
