@@ -178,6 +178,11 @@ heapify(arr, i, n):
         heapify(arr, largest, n)
 ```
 
+Readings:
+
+- [Heap - Heap Sort - Heapify - Priority Queues](https://www.youtube.com/watch?v=HqPJF2L5h9U)
+- [Heap Sort in Python](https://www.youtube.com/watch?v=Xvv1Me9ehhQ)
+
 ## Comparing All Types of Sorting Techniques
 
 | Algorithm Name | Time Complexity | Space Complexity | Stable(Y/N?) | In-place or Out-of-place |
@@ -190,3 +195,10 @@ heapify(arr, i, n):
 | Heap Sort      | O(n log n)      | O(1)             | No           | In-place                 |
 
 ## Problems
+
+- [Bubble Sort](Problems/bubble_sort.py)
+- [Selection Sort](Problems/selection_sort.py)
+- [Insertion Sort](Problems/insertion_sort.py)
+- [Merge Sort](Problems/merge_sort.py)
+- [Quick Sort](Problems/quick_sort.py)
+- [Heap Sort](Problems/heap_sort.py)
