@@ -133,3 +133,4 @@ To learn more about Recursion, follow below links:
 14. [Stringify numbers](Problems/stringify_numbers.py)
 15. [Collect strings](Problems/collect_strings.py)
 16. [Total handshakes](Problems/total_handshakes.py)
+17. [Leetcode: Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
